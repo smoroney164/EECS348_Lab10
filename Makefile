@@ -3,8 +3,8 @@ CXXFLAGS = -std=c++11 -Wall -Wextra
 
 all: matrix
 
-matrix: main.cpp
-	$(CXX) $(CXXFLAGS) -o matrix main.cpp
+matrix: matrix.cpp
+	$(CXX) $(CXXFLAGS) -o matrix matrix.cpp
 
 clean:
 	rm -f matrix
